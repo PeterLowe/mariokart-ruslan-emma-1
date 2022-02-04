@@ -4,9 +4,9 @@
 #include <SFML\Graphics.hpp>
 
 /// <summary>
-/// @author Peter Lowe
+/// @author RuslanGavrrilov
 /// @version 1.0
-/// @date May2016
+/// @date February2022
 /// 
 /// Simple class to display full screen texture
 /// and text message and wait for anykey
@@ -20,7 +20,10 @@ public:
 	
 
 protected:
-	
+	sf::Font m_font;
+	sf::Text m_message;
+
+	int m_splashTimer = 0;
 };
 
 #endif // !SPLASHSCREEN_H

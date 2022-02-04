@@ -1,12 +1,14 @@
+
+
 #ifndef LICENCE_H
 #define LICENCE_H
 
 #include <SFML\Graphics.hpp>
 
 /// <summary>
-/// @author Peter Lowe
+/// @author EmmaMcDonald
 /// @version 1.0
-/// @date may 2016
+/// @date feb 2022
 /// 
 /// \brief simple page to display Licence text for fixed period.
 /// 
